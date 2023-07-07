@@ -1,0 +1,116 @@
+.main_div {
+  width: 30%;
+  height: 100vh;
+  border: 1px solid #f0f2f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 20px;
+  background-color: #f0f2f5;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_image_div {
+  width: 10%;
+}
+
+.profile_image_div > img {
+  border-radius: 50px;
+  border: 3px solid #17dc5c;
+}
+
+.navbar_icons {
+  color: #505c62;
+}
+.navbar_icons:hover{
+    cursor: pointer;
+}
+
+.search_div {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-around;
+  padding: 7px 20px;
+}
+.search_logo_div {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  border-radius: 10px;
+  background-color: #f0f2f5;
+  margin-right: 10px;
+  padding: 0px 20px;
+}
+.search_icon{
+    color: #788890;
+}
+.search_div > div > input {
+  width: 90%;
+  height: 5vh;
+  border-radius: 10px;
+  background-color: #f0f2f5;
+  margin-left: 15px;
+}
+
+.searchInputAndBtn{
+    color: #788890;
+    font-size: 25px;
+}
+
+.searchInputAndBtn::placeholder {
+  /* border: 0px solid red; */
+  line-height: 50px;
+  font-size: 14px;
+  color: rgb(126, 122, 122);
+}
+.searchInputAndBtn:focus {
+  outline: none;
+  font-size: 16px;
+}
+
+/* .chats_div {
+    
+} */
+
+/* Navbar Buttons css */
+
+.Nav_Group_Btn{
+    display: none;
+    position: absolute;
+    margin-top: 365px;
+    margin-right: 80px;
+    width: 200px;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    color: #4e5458;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Nav_Group_Btn > p{
+    padding: 10px 20px;
+}
+
+.Nav_Group_Btn > p:hover{
+    cursor: pointer;
+    background-color: #f0f2f5;
+}
+
+.First_Btn_navGroup{
+    margin-top: 10px;
+}
+
+.Last_Btn_navGroup{
+    margin-bottom: 10px;
+}

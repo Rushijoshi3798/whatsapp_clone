@@ -1,0 +1,68 @@
+.main_chatDiv{
+    height: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 07px;
+}
+
+.main_chatDiv:hover{
+    background-color: #e9e6f1;
+    cursor: pointer;
+}
+.main_chatDiv > section{
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+}
+.user_icon{
+    width: 90%;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 60%;
+    color: white;
+    background-color: #d2c4ff;
+}
+.all_chat_preview{
+    display: flex;
+    flex-direction: column;
+}
+.preview_msg_div{
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid red; */
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.preview_msg_div > h5{
+    font-size: 17px;
+}
+.preview_msg_div > p{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(103, 102, 102);
+}
+.doubleTick_icon{
+    color: #5db5db;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.doubleTick_icon2{
+    color: rgb(98, 94, 94);
+    font-size: 20px;
+    margin-right: 5px;
+}
+.doubleTick_icon3{
+    color: #5db5db;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+hr{
+    border-color: 'grey'
+}
